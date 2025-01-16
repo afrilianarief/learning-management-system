@@ -5,4 +5,4 @@
 - **Rails**: 8.0.1
 - **Database**: SQLite
 
-![Gambar LMS](https://ibb.co.com/HntJKBt)
+![Gambar LMS](public/images/lms.png)
