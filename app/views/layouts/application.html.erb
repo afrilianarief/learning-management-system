@@ -23,6 +23,43 @@
   </head>
 
   <body>
-    <%= yield %>
+    <!-- Header -->
+    <header>
+      <h1>Learning Management System</h1>
+    </header>
+
+    <!-- Navigation bar -->
+    <nav>
+      <a href="#">Beranda</a>
+      <a href="#">Kursus</a>
+      <a href="#">Tugas</a>
+      <a href="#">Forum</a>
+      <a href="#">Profil</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <div class="container">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <h3>Menu Cepat</h3>
+        <ul>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Materi Pembelajaran</a></li>
+          <li><a href="#">Tugas</a></li>
+          <li><a href="#">Ujian</a></li>
+          <li><a href="#">Pengaturan</a></li>
+        </ul>
+      </div>
+
+      <!-- Main content area -->
+      <div class="main-content">
+        <%= yield %>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Learning Management System</p>
+    </footer>
   </body>
 </html>
